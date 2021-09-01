@@ -1,0 +1,84 @@
+ body {font-family: Arial, Helvetica, sans-serif;}
+  form {
+    width: 80%;
+    margin: 150px;
+  }
+  table {
+    margin: auto;
+    font-size: 12px;
+  }
+  table td {
+    transition: all .5s;
+	text-align: center;
+  }
+
+  /* Table */
+  .data-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 500px;
+  }
+
+  .data-table th,
+  .data-table td {
+    border: 1px solid #e1edff;
+    padding: 7px 17px;
+  }
+  .data-table caption {
+    margin: 7px;
+  }
+  /* Table Header */
+  .data-table thead th {
+    background-color: #666666;
+    border-color: #404040;
+    text-transform: uppercase;
+  }
+  .data-table title {
+    font-size: 20px;
+  }
+  /* Table Body */
+  .data-table tbody td {
+    color: #353535;
+  }
+  .data-table tbody td:first-child,
+  .data-table tbody td:nth-child(4),
+  .data-table tbody td:last-child {
+    text-align: right;
+  }
+
+  .data-table tbody tr:nth-child(odd) td {
+    background-color: #e6e6e6;
+  }
+  .data-table tbody tr:hover td {
+    background-color: #ffcccc;
+    border-color: #ff8080;
+  }
+  /* The Close Button (x) */
+  .close {
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+      color: red;
+      cursor: pointer;
+  }
+  /* Set a style for all buttons */
+  button {
+    background-color: #262626;
+    color:white;
+      padding: 14px 20px;
+      margin-left: 45%;
+      border: none;
+      cursor: pointer;
+      width: auto;
+      font-size: 15px;
+  }
+
+  button:hover {
+      opacity: 0.8;
+  }
